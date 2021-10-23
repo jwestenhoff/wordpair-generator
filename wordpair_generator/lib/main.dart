@@ -6,6 +6,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(primaryColor: Colors.lightGreenAccent[400]),
       home: Scaffold(
         appBar: AppBar(
           title: Text('WordPair Generator'),
