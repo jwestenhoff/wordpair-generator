@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(primaryColor: Colors.lightGreenAccent[400]),
       home: Scaffold(
         appBar: AppBar(
-          title: Text('WordPair Generator'),
+          title: Center(child: Text('WordPair Generator')),
         ),
       ),
     );
